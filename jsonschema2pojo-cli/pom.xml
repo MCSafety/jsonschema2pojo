@@ -4,8 +4,8 @@
 
     <parent>
         <artifactId>jsonschema2pojo</artifactId>
-        <groupId>org.jsonschema2pojo</groupId>
-        <version>1.0.3-SNAPSHOT</version>
+        <groupId>de.os.home</groupId>
+        <version>1.0.3</version>
     </parent>
 
     <artifactId>jsonschema2pojo-cli</artifactId>
@@ -105,7 +105,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jsonschema2pojo</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>jsonschema2pojo-core</artifactId>
             <version>${project.version}</version>
         </dependency>
