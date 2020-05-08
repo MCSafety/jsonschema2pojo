@@ -5,11 +5,11 @@
 
     <parent>
         <artifactId>jsonschema2pojo</artifactId>
-        <groupId>org.jsonschema2pojo</groupId>
+        <groupId></groupId>
         <version>1.0.3-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.jsonschema2pojo</groupId>
+    <groupId>de.os.home</groupId>
     <artifactId>jsonschema2pojo-scalagen</artifactId>
     <version>1.0.3-SNAPSHOT</version>
 

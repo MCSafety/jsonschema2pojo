@@ -8,9 +8,9 @@
         <version>9</version>
     </parent>
 
-    <groupId>org.jsonschema2pojo</groupId>
+    <groupId>de.os.home</groupId>
     <artifactId>jsonschema2pojo</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
 
     <packaging>pom</packaging>
     <name>jsonschema2pojo</name>
@@ -479,18 +479,20 @@
         </dependencies>
     </dependencyManagement>
 
-    <repositories>
-        <repository>
-            <id>central</id>
-            <url>https://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
-            <id>gradle-workaround</id>
-            <url>https://repo.spring.io/plugins-release</url>
-            <snapshots>
-              <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/mcsafety/maven-packages</url>
+    </repository>
+  </distributionManagement>
+  
+  <repositories>
+    <repository>
+      <id>github</id>
+      <name>GitHub Maven Packages</name>
+      <url>https://maven.pkg.github.com/mcsafety/maven-packages</url>
+    </repository>
+  </repositories>
 
 </project>
